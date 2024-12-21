@@ -1,0 +1,113 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: "Nerko One", cursive;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+    border-radius: 10px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+
+body{
+    background-color: #272B30;
+    height: 2000px;
+}
+
+section img{
+    height: 15rem;
+    object-fit: cover;
+}
+span,p,a{
+    font-family: 'Comfortaa', cursive;
+}
+
+nav {
+    background-color: #3A497B;
+    top: 25%; 
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    z-index: 1000; 
+    transition: top 0.3s ; 
+}
+
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+nav img{
+    width: 15%;
+}
+nav a{
+    color: white !important;
+    text-transform: uppercase;
+}
+
+.my_links{
+    font-size: 12.25px;
+}
+.my_links:hover{
+    color: #0691C4 !important;
+}
+
+
+.card{
+    background-color: black;
+}
+.iteam p{
+    font-size: 14px;
+}
+.iteam h5{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.top-card-btn{
+    background-color: #3A497B;
+    color: #fff;
+    font-size: 12px;
+}
+.top-card-btn:hover{
+    background-color: #3A497B;
+    color: #fff;
+    font-size: 12px;
+}
+
+.btn-botm a{
+    font-size: 10px;
+    background-color: #32383E;
+}
+.btn-botm a:hover{
+    font-size: 10px;
+    background-color: #32383E;
+}
+
+.iteam{
+    transition: all .5s;
+}
+.iteam:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+.col-md-8 p span{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.ligt-container{
+    background-color: rgb(39, 40, 43);
+    z-index: 1001;
+}

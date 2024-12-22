@@ -1,0 +1,12 @@
+class Ui{
+
+
+    diplay(){
+        
+    }
+
+
+    diplayData(){
+
+    }
+}
